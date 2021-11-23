@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <link href="styles.css" rel="stylesheet"></link>
+    <script src="/scripts/jquery.min.js"></script>
+    <script src="/scripts/main.js"></script>
+  </head>
+  <body>
+    <div class="contain">
+      <div class="row">
+        
+         <div class="navbar col-3">
+            <ul>
+              <ol><button id= "home" onclick="window.open('index.html', '_parent')">Home</button></ol>
+              <ol><button id= "all_Events" onclick="window.open('all_Events.html', '_parent')">All Events</button></ol>
+              <ol><button id= "create_Event" onclick="window.open('create_Event.html', '_parent')">Create Event</button></ol>
+              <ol><button id= "about_Us" onclick="window.open('about_Us.html', '_parent')">About us</button></ol>
+            </ul>
+        </div>
+        <div class="content col-9">
+          <div id = "about_Us_Container">
+            <h1>About Us</h1>
+
+            <div class="other_Container">
+                <h2>About the company:</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error odio dolor tempora quam accusantium ab assumenda distinctio, corrupti corporis quisquam eveniet beatae quasi rem, iusto sapiente voluptate dicta. Asperiores, optio.</p>
+                <h2>About the Team:</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque ab magni minima corrupti necessitatibus voluptates modi quos consectetur maxime! Accusamus velit itaque placeat, odio ab architecto corrupti aut porro a.</p>  
+                <h2>Company Goals:</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt fugiat dolores officia. In, perspiciatis debitis. Quibusdam repellat perspiciatis, velit esse ducimus architecto blanditiis reiciendis nisi molestias optio officiis ea rem vitae iure cumque, quam sit ex numquam et. Non error odit ipsam? Vero excepturi non minima, voluptate dignissimos nemo architecto.</p>
+            </div>
+            <div class="about_Us_Images">
+                <img
+                  src="https://images.unsplash.com/photo-1637506797272-6c59de1adca2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                  alt="A guy sitting on some stairs."
+                  id="thumbnail"
+                />
+                <ul>
+                    <ol>VD: Mikko Tirronen</ol>
+                    <ol>Telephone Number: <a href="tel:123123123">123123123</a></ol>
+                    <ol>Email:<a href="mailTo:myEmail@myserver.com"> myEmail@myserver.com</a></ol>
+                </ul>
+                <div id="meet_the_team">
+                    <img
+                  src="https://images.unsplash.com/photo-1576267423048-15c0040fec78?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+                  alt="Team photo!"
+                  id="team_Photo"
+                />
+                </div>
+                <div id="contact_Me">
+                    <p id= "remove_1">Name:</p>
+                    <input type="text" id ="remove_2">
+                    <p id ="remove_3">Email:</p>
+                    <input type="email" name="email" id ="remove_4">
+                    <p id ="remove_5">Message:</p>
+                    <input type="text" name="message" id ="remove_6">
+                    <br><button id= "submit_Message">Send</button>
+                </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+          
+        
+      
+    
+  </body>
+</html>
