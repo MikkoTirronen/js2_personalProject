@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Event</title>
+    <link href="styles.css" rel="stylesheet"></link>
+    <script src="/scripts/jquery.min.js"></script>
+    <script src="/scripts/main.js"></script>
+  </head>
+  <body>
+    <div class="contain">
+      <div class="row">
+        
+         <div class="navbar col-3">
+            <ul>
+              <ol><button id= "home" onclick="window.open('index.html', '_parent')">Home</button></ol>
+              <ol><button id= "all_Events" onclick="window.open('all_Events.html', '_parent')">All Events</button></ol>
+              <ol><button id= "create_Event" onclick="window.open('create_Event.html', '_parent')">Create Event</button></ol>
+              <ol><button id= "about_Us" onclick="window.open('about_Us.html', '_parent')">About us</button></ol>
+            </ul>
+        </div>
+        <div class="content col-9">
+          <div id = "create_Event_Container">
+            <h1>Create Event!</h1>
+
+            <div class="submit_container">
+                
+        
+                    <p>Name:</p>
+                    <input type="text">
+                    <p>Date:</p>
+                     <input type="text">
+                    <p>Short Description:</p>
+                    <input type="text">
+                    
+                    <p>Images:</p>
+                    <div class="submit_images">
+                        <input type="text"> <input type="text"> <input type="text"> <input type="text">
+                    </div>
+                    <p>Category:</p>
+                    <select name="category" id="submit_Category">
+                        <option value="0"></option>
+                        <option value="1">Party</option>
+                        <option value="2">Concert</option>
+                        <option value="3">Seminar</option>
+                        <option value="4">Meeting</option>
+                    </select>
+                    <button type="submit">Create Event!</button>
+            </div>
+            
+          </div>
+        </div>
+        
+      </div>
+    </div>
+          
+
+      
+    
+  </body>
+</html>

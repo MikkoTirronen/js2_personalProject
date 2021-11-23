@@ -1,0 +1,214 @@
+.navbar {
+  min-height: 1200px;
+  background-color: cadetblue;
+  min-width: 125px;
+}
+.navbar ul {
+  margin: 0;
+  padding: 0;
+}
+.navbar ul button {
+  width: 100px;
+  margin: 3px;
+}
+
+.content .banner img {
+  height: 250px;
+  width: 100%;
+  min-width: 740px;
+  object-fit: cover;
+  object-position: 0% 100%;
+}
+.content .event_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 50% 50%;
+}
+.content .event_container .event {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  width: 250px;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-left: calc(var(--bs-gutter-x) * -0.5);
+  margin-right: calc(var(--bs-gutter-x) * -0.5);
+}
+
+.row > * {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  margin-top: var(--bs-gutter-y);
+}
+
+.col-3 {
+  padding-top: 300px;
+  flex: 0 0 auto;
+  width: 16.66666667%;
+  padding-right: 40px;
+}
+
+.col-9 {
+  flex: 0 0 auto;
+  width: 70%;
+}
+
+.contain {
+  width: 100%;
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.new_test {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 25% 25% 25%;
+}
+.new_test .event {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  width: 250px;
+}
+
+.details {
+  min-width: 800px;
+}
+.details h1 {
+  font-size: 100px;
+}
+.details ul {
+  font-size: 20px;
+}
+.details #image_container {
+  height: 33%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+.details #image_container img {
+  width: 175px;
+  margin: 20px;
+}
+.details #image_container .onHover {
+  width: 195px;
+}
+
+#create_Event_Container {
+  min-width: 1300px;
+}
+#create_Event_Container h1 {
+  font-size: 75px;
+}
+#create_Event_Container .submit_container {
+  font-size: 20px;
+  font-weight: 800;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+#create_Event_Container .submit_container input {
+  width: 150px;
+  margin: 10px;
+}
+#create_Event_Container .submit_container select {
+  margin: 10px;
+  width: 150px;
+  height: 25px;
+}
+#create_Event_Container .submit_container button {
+  grid-column-start: 2;
+  margin-left: 0px;
+  color: #e3e9ee;
+  background-color: #eb6415;
+  font-size: 24px;
+  font-weight: 600;
+  width: 250px;
+  height: 50px;
+  border: none;
+}
+
+#about_Us_Container {
+  min-width: 1300px;
+}
+#about_Us_Container h1 {
+  font-size: 75px;
+}
+#about_Us_Container .about_Us_Images {
+  margin-top: 30px;
+  height: 800px;
+  display: grid;
+  grid-template-rows: 21% 40% 60%;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+#about_Us_Container .about_Us_Images #thumbnail {
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 0% 64%;
+}
+#about_Us_Container .about_Us_Images ul {
+  padding: 0;
+  font-size: 17px;
+}
+#about_Us_Container .about_Us_Images #meet_the_team {
+  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-column-end: span 5;
+}
+#about_Us_Container .about_Us_Images #meet_the_team img {
+  object-fit: cover;
+  object-position: 0% 36%;
+  width: 100%;
+  height: 100%;
+}
+#about_Us_Container .about_Us_Images #contact_Me {
+  margin-top: 20px;
+  padding: 20px;
+  grid-row-start: 3;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  width: 560px;
+  height: 410px;
+  background-color: #5096b6;
+  font-size: 25px;
+  font-weight: 600;
+  color: #f6f6f6;
+  line-height: 0px;
+}
+#about_Us_Container .about_Us_Images #contact_Me #remove_6 {
+  width: 400px;
+  height: 120px;
+}
+#about_Us_Container .about_Us_Images #contact_Me button {
+  width: 100%;
+  height: 50px;
+  font-size: 25px;
+  font-weight: 800;
+  background-color: #5096b6;
+  border: none;
+  color: white;
+}
+#about_Us_Container .about_Us_Images #contact_Me #thank_You {
+  grid-row-start: 3;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  padding-top: 100px;
+  padding-left: 50px 50px;
+}
+#about_Us_Container .about_Us_Images #contact_Me #thank_You p {
+  text-align: center;
+  font-size: 35px;
+  line-height: 50px;
+}
+
+/*# sourceMappingURL=styles.css.map */
